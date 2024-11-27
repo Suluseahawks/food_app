@@ -1,0 +1,31 @@
+name: food_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Add sqflite for SQLite database handling
+  sqflite: ^2.2.7
+  
+  # Path provider to access the local storage directory
+  path_provider: ^2.0.15
+
+  # Date picker for selecting dates
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
